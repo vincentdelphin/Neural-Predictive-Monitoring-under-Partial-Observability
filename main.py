@@ -1,10 +1,6 @@
 # Goal: to pass set of states to reach function used in Matlab and return results.
 import matlab.engine
-import numpy as np
 
-# states = [[1, 3], [2, 4]]
-# tFinal needs to be a double
-from numpy import double
 
 tFinal = 200.0
 # String = "reach_values = invokeRC({}, {})".format(states, tFinal)
